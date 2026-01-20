@@ -19,15 +19,13 @@ We aim to optimize the parameters:
 ### 1. Initial State (Before Training)
 At the start, the parameters $w$ (weight) and $b$ (bias) are initialized randomly. 
 
-![Initial Random State](plots/lr_init.png)
-
 ### 2. Final Model Fit (After Training)
 After 10,000 epochs, the model has optimized $w$ and $b$. 
-
-![Linear Regression Fit](plots/lr_final.png)
 
 ### 3. Learning Curve (Loss over Time)
 This graph shows how the error (Loss) decreases drastically in the beginning and stabilizes as the training epochs progress.
 
-![Loss History](plots/lr_loss.png)
 
+| Inicial | Final | Loss |
+|--------|--------|------|
+| ![Inicial](plots/lr_init.png) | ![Final](plots/lr_final.png) | ![Loss](plots/lr_loss.png) |
