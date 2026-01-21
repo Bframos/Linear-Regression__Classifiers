@@ -26,6 +26,12 @@ After 10,000 epochs, the model has optimized $w$ and $b$.
 This graph shows how the error (Loss) decreases drastically in the beginning and stabilizes as the training epochs progress.
 
 
+# Linear Classification (From Scratch)
+
+
+
+
+
 | Inicial | Final | Loss |
 |--------|--------|------|
 | ![Inicial](plots/lr_init.png) | ![Final](plots/lr_final.png) | ![Loss](plots/lr_loss.png) |
