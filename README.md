@@ -26,12 +26,33 @@ After 10,000 epochs, the model has optimized $w$ and $b$.
 This graph shows how the error (Loss) decreases drastically in the beginning and stabilizes as the training epochs progress.
 
 
-# Linear Classification (From Scratch)
-
-
-
-
-
 | Inicial | Final | Loss |
 |--------|--------|------|
 | ![Inicial](plots/lr_init.png) | ![Final](plots/lr_final.png) | ![Loss](plots/lr_loss.png) |
+
+
+# Linear Classification (From Scratch)
+
+This repository contains a Jupyter Notebook that implements **Linear Classifiers** from scratch, without relying on high-level machine learning libraries such as Scikit-Learn. It focuses on the mathematical foundations behind classifying points using linear decision boundaries.
+
+##  Project Overview
+
+We aim to build and train a linear model capable of separating data into classes by learning:
+
+- **$w$ (Weight vector)**
+- **$b$ (Bias)**
+  
+## Results & Visualizations
+
+| Inicial | Final | Loss |
+|--------|--------|------|
+| ![Inicial](plots/li_init.png) | ![Final](plots/li_final.png) | ![Loss](plots/li_loss.png) |
+
+| Inicial | Final | Loss |
+|--------|--------|------|
+| ![Inicial](plots/multiclass_init.png) | ![Final](plots/multiclass_final.png) | ![Loss](plots/multiclass_loss.png) |
+
+
+
+
+
